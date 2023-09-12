@@ -2,22 +2,18 @@
 #include <math.h>
 
 int main(){ 
-    int num1,ultimodigito;
+    int num1;
 
 printf("Digite um numero :");
 scanf("%d",&num1);
 
+if(num1 % 2 == 0 ){
 
-ultimodigito = (num1 %10);
-if(ultimodigito == 1 || ultimodigito == 3 || 
-ultimodigito == 5 || ultimodigito == 7 || 
-ultimodigito == 9 ){
-
-    printf("Impar");
+    printf("Par");
     
 }else{
 
-    printf("Par");
+    printf("Impar");
 }
 
 
