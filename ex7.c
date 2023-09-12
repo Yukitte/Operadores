@@ -10,9 +10,9 @@ scanf("%f %f %f", &nota1 , &nota2, &nota3 );
 ponderada = (nota1 + nota2 +(nota3*2))/3;
 
 if(ponderada >= 7 ){
-    printf("APROVADO");
+    printf("Nota : %.2fl.APROVADO",ponderada);
 }else{
-    printf("REPROVADO");
+    printf("Nota : %d.2fl.REPROVADO",ponderada);
 }
 
 
